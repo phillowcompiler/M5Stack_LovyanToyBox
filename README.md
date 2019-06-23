@@ -4,13 +4,13 @@ M5Stack Lovyan ToyBox
 M5Stack用 らびやんさんの実験的な何かで遊んだやつ。
 
 ## 追加ディレクトリ
-* play_tcpreceiver M5Stack用プログラム。「ScreenShotReceiver」を改造したもの
-* 
+* play_tcpreceiver M5Stack用プログラム。「ScreenShotReceiver」を改造したもの。
+* ssender　Linux用のプログラム。Xvfbで動作するフレームバッファをjpegに変換してM5Stackに送り込むやつ。
 
 ## 解説
-Linuxとかで仮想ディスプレイ（Xvfb）を作ってから、その上でmpvとかを走らせた状態で、仮想ディスプレイのフレームバッファからポコポコとスクリーンショットを取ってjpegに変換してM5Stackに送る仕組み。
+Linuxとかで仮想ディスプレイ（Xvfb）を作ってから、その上でmpvとかを走らせた状態で、仮想ディスプレイのフレームバッファからポコポコとスクリーンショットを取ってjpegに変換してM5Stackにwifi-ソケット通信（TCPプロトコル）で送る仕組み。
 
-mpvはキーボードでも操作できるので、M5Stackの３つのボタンを適当に割り当てて操作できる仕組みになっている。
+mpvはキーボードでも操作できるので、M5Stackの３つのボタンを適当に割り当てて操作できるようになっている。
 
 Xvfbやmpvの解説や使い方はググるとザクザクと出てくるので、それを調べよう。
 
