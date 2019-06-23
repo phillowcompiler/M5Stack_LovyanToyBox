@@ -28,7 +28,7 @@ M5Stack側はtreeviewメニューをすっとばして、tcpreceiver単体で動
 
 M5Stack側の「tcpreceiver」はTCPクライアントではなくて、TCPサーバーになってる。
 
-PlatformIOだと#include <arduino.h>を判定してくれない。「Arduino.h」と書く必要がある(^^;
+PlatformIOだと「tjpgdClass.cpp」の#include <arduino.h>でエラーになる。<Arduino.h>と書こう(^^;
 
 jpeg圧縮率が高いままだと画像データが64kBを超えて死ねる（笑）。sender側のサイズは２バイトデータ指定で来る。
 
