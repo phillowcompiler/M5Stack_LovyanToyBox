@@ -32,9 +32,11 @@ PlatformIOだと#include <arduino.h>を判定してくれない。「Arduino.h�
 
 jpeg圧縮率が高いままだと画像データが64kBを超えて死ねる（笑）。sender側のサイズは２バイトデータ指定で来る。
 
+ソースだと、Wifi.begin()になってるので、最初に動かすときはSSIDとパスを指定する何かの工夫が必要だ（一回だけ、SSID-Passを書くとか）
 
 
-↓以下はらびやん氏によるfork元のDescription
+
+# 以下はらびやん氏によるfork元のDescription
 ## Description
   
 M5Stackで作った諸々の詰め合わせです。  
