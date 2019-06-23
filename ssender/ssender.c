@@ -1,5 +1,5 @@
 //
-//  ssender.cpp
+//  ssender.c
 //
 //  426x240の仮想ディスプレイのフレームバッファをポコポコとjpegで送るやつ
 //　Xvfb :1 -screen 0 426x240x16 -fbdir /tmp ←このように書くと/tmp/Xvfb_screen0というフレームバッファができる
