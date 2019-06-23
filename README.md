@@ -23,6 +23,8 @@ M5Stack側はtreeviewメニューをすっとばして、tcpreceiver単体で動
 * PCT Cボタン押下
 * PCF Cボタンリリース 
 
+※だから、元プログラムのキー操作（下記　Usage　参照）は無効になっています。
+
 
 ## 遊んでて気づいたこと
 
@@ -36,7 +38,7 @@ jpeg圧縮率が高いままだと画像データが64kBを超えて死ねる（
 
 
 
-# 以下はらびやん氏によるfork元のDescription
+# 以下はらびやん氏によるfork元の.md
 ## Description
   
 M5Stackで作った諸々の詰め合わせです。  
